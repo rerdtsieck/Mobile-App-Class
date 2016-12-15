@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Bank" representedClassName="Bank" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="clients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="banks" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="BirthCertificate" representedClassName="BirthCertificate" syncable="YES">
+        <attribute name="issuedCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="issuedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="ownedBy" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="birthCert" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ssn" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="banks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Bank" inverseName="clients" inverseEntity="Bank" syncable="YES"/>
+        <relationship name="birthCert" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BirthCertificate" inverseName="ownedBy" inverseEntity="BirthCertificate" syncable="YES"/>
+        <relationship name="pets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pet" inverseName="owner" inverseEntity="Pet" syncable="YES"/>
+    </entity>
+    <entity name="Pet" representedClassName="Pet" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="pets" inverseEntity="Person" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bank" positionX="-36" positionY="18" width="128" height="105"/>
+        <element name="BirthCertificate" positionX="-54" positionY="27" width="128" height="30"/>
+        <element name="Person" positionX="-63" positionY="-18" width="128" height="30"/>
+        <element name="Pet" positionX="0" positionY="45" width="128" height="90"/>
+    </elements>
+</model>

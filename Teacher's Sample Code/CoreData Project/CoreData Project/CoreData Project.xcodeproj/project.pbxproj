@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA68E9FD1DB2B53100E34EF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68E9FC1DB2B53100E34EF1 /* main.m */; };
+		AA68EA001DB2B53100E34EF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68E9FF1DB2B53100E34EF1 /* AppDelegate.m */; };
+		AA68EA031DB2B53100E34EF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA021DB2B53100E34EF1 /* ViewController.m */; };
+		AA68EA061DB2B53100E34EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA68EA041DB2B53100E34EF1 /* Main.storyboard */; };
+		AA68EA091DB2B53100E34EF1 /* CoreData_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA071DB2B53100E34EF1 /* CoreData_Project.xcdatamodeld */; };
+		AA68EA0B1DB2B53100E34EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA68EA0A1DB2B53100E34EF1 /* Assets.xcassets */; };
+		AA68EA0E1DB2B53100E34EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA68EA0C1DB2B53100E34EF1 /* LaunchScreen.storyboard */; };
+		AA68EA3D1DB3F18500E34EF1 /* Pet+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA2E1DB3F18500E34EF1 /* Pet+CoreDataProperties.m */; };
+		AA68EA3E1DB3F18500E34EF1 /* Pet.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA301DB3F18500E34EF1 /* Pet.m */; };
+		AA68EA3F1DB3F18500E34EF1 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA321DB3F18500E34EF1 /* Person+CoreDataProperties.m */; };
+		AA68EA401DB3F18500E34EF1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA341DB3F18500E34EF1 /* Person.m */; };
+		AA68EA411DB3F18500E34EF1 /* Bank+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA361DB3F18500E34EF1 /* Bank+CoreDataProperties.m */; };
+		AA68EA421DB3F18500E34EF1 /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA381DB3F18500E34EF1 /* Bank.m */; };
+		AA68EA431DB3F18500E34EF1 /* BirthCertificate+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA3A1DB3F18500E34EF1 /* BirthCertificate+CoreDataProperties.m */; };
+		AA68EA441DB3F18500E34EF1 /* BirthCertificate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68EA3C1DB3F18500E34EF1 /* BirthCertificate.m */; };
+		AA68EA5C1DC305ED00E34EF1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AA68EA5B1DC305ED00E34EF1 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA68E9F81DB2B53100E34EF1 /* CoreData Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA68E9FC1DB2B53100E34EF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA68E9FE1DB2B53100E34EF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA68E9FF1DB2B53100E34EF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA68EA011DB2B53100E34EF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA68EA021DB2B53100E34EF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA68EA051DB2B53100E34EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA68EA081DB2B53100E34EF1 /* CoreData_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_Project.xcdatamodel; sourceTree = "<group>"; };
+		AA68EA0A1DB2B53100E34EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA68EA0D1DB2B53100E34EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA68EA0F1DB2B53100E34EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA68EA2D1DB3F18500E34EF1 /* Pet+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pet+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AA68EA2E1DB3F18500E34EF1 /* Pet+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pet+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AA68EA2F1DB3F18500E34EF1 /* Pet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pet.h; sourceTree = "<group>"; };
+		AA68EA301DB3F18500E34EF1 /* Pet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pet.m; sourceTree = "<group>"; };
+		AA68EA311DB3F18500E34EF1 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AA68EA321DB3F18500E34EF1 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AA68EA331DB3F18500E34EF1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AA68EA341DB3F18500E34EF1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AA68EA351DB3F18500E34EF1 /* Bank+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bank+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AA68EA361DB3F18500E34EF1 /* Bank+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bank+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AA68EA371DB3F18500E34EF1 /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
+		AA68EA381DB3F18500E34EF1 /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
+		AA68EA391DB3F18500E34EF1 /* BirthCertificate+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BirthCertificate+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AA68EA3A1DB3F18500E34EF1 /* BirthCertificate+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BirthCertificate+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AA68EA3B1DB3F18500E34EF1 /* BirthCertificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthCertificate.h; sourceTree = "<group>"; };
+		AA68EA3C1DB3F18500E34EF1 /* BirthCertificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthCertificate.m; sourceTree = "<group>"; };
+		AA68EA5B1DC305ED00E34EF1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA68E9F51DB2B53100E34EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA68EA5C1DC305ED00E34EF1 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA68E9EF1DB2B53100E34EF1 = {
+			isa = PBXGroup;
+			children = (
+				AA68EA5B1DC305ED00E34EF1 /* libsqlite3.tbd */,
+				AA68E9FA1DB2B53100E34EF1 /* CoreData Project */,
+				AA68E9F91DB2B53100E34EF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA68E9F91DB2B53100E34EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA68E9F81DB2B53100E34EF1 /* CoreData Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA68E9FA1DB2B53100E34EF1 /* CoreData Project */ = {
+			isa = PBXGroup;
+			children = (
+				AA68E9FE1DB2B53100E34EF1 /* AppDelegate.h */,
+				AA68E9FF1DB2B53100E34EF1 /* AppDelegate.m */,
+				AA68EA011DB2B53100E34EF1 /* ViewController.h */,
+				AA68EA021DB2B53100E34EF1 /* ViewController.m */,
+				AA68EA041DB2B53100E34EF1 /* Main.storyboard */,
+				AA68EA0A1DB2B53100E34EF1 /* Assets.xcassets */,
+				AA68EA0C1DB2B53100E34EF1 /* LaunchScreen.storyboard */,
+				AA68EA0F1DB2B53100E34EF1 /* Info.plist */,
+				AA68EA071DB2B53100E34EF1 /* CoreData_Project.xcdatamodeld */,
+				AA68EA2D1DB3F18500E34EF1 /* Pet+CoreDataProperties.h */,
+				AA68EA2E1DB3F18500E34EF1 /* Pet+CoreDataProperties.m */,
+				AA68EA2F1DB3F18500E34EF1 /* Pet.h */,
+				AA68EA301DB3F18500E34EF1 /* Pet.m */,
+				AA68EA311DB3F18500E34EF1 /* Person+CoreDataProperties.h */,
+				AA68EA321DB3F18500E34EF1 /* Person+CoreDataProperties.m */,
+				AA68EA331DB3F18500E34EF1 /* Person.h */,
+				AA68EA341DB3F18500E34EF1 /* Person.m */,
+				AA68EA351DB3F18500E34EF1 /* Bank+CoreDataProperties.h */,
+				AA68EA361DB3F18500E34EF1 /* Bank+CoreDataProperties.m */,
+				AA68EA371DB3F18500E34EF1 /* Bank.h */,
+				AA68EA381DB3F18500E34EF1 /* Bank.m */,
+				AA68EA391DB3F18500E34EF1 /* BirthCertificate+CoreDataProperties.h */,
+				AA68EA3A1DB3F18500E34EF1 /* BirthCertificate+CoreDataProperties.m */,
+				AA68EA3B1DB3F18500E34EF1 /* BirthCertificate.h */,
+				AA68EA3C1DB3F18500E34EF1 /* BirthCertificate.m */,
+				AA68E9FB1DB2B53100E34EF1 /* Supporting Files */,
+			);
+			path = "CoreData Project";
+			sourceTree = "<group>";
+		};
+		AA68E9FB1DB2B53100E34EF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA68E9FC1DB2B53100E34EF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA68E9F71DB2B53100E34EF1 /* CoreData Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA68EA121DB2B53200E34EF1 /* Build configuration list for PBXNativeTarget "CoreData Project" */;
+			buildPhases = (
+				AA68E9F41DB2B53100E34EF1 /* Sources */,
+				AA68E9F51DB2B53100E34EF1 /* Frameworks */,
+				AA68E9F61DB2B53100E34EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreData Project";
+			productName = "CoreData Project";
+			productReference = AA68E9F81DB2B53100E34EF1 /* CoreData Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA68E9F01DB2B53100E34EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = cpsc;
+				TargetAttributes = {
+					AA68E9F71DB2B53100E34EF1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AA68E9F31DB2B53100E34EF1 /* Build configuration list for PBXProject "CoreData Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA68E9EF1DB2B53100E34EF1;
+			productRefGroup = AA68E9F91DB2B53100E34EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA68E9F71DB2B53100E34EF1 /* CoreData Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA68E9F61DB2B53100E34EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA68EA0E1DB2B53100E34EF1 /* LaunchScreen.storyboard in Resources */,
+				AA68EA0B1DB2B53100E34EF1 /* Assets.xcassets in Resources */,
+				AA68EA061DB2B53100E34EF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA68E9F41DB2B53100E34EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA68EA3D1DB3F18500E34EF1 /* Pet+CoreDataProperties.m in Sources */,
+				AA68EA031DB2B53100E34EF1 /* ViewController.m in Sources */,
+				AA68EA401DB3F18500E34EF1 /* Person.m in Sources */,
+				AA68EA001DB2B53100E34EF1 /* AppDelegate.m in Sources */,
+				AA68EA3E1DB3F18500E34EF1 /* Pet.m in Sources */,
+				AA68EA431DB3F18500E34EF1 /* BirthCertificate+CoreDataProperties.m in Sources */,
+				AA68EA421DB3F18500E34EF1 /* Bank.m in Sources */,
+				AA68EA091DB2B53100E34EF1 /* CoreData_Project.xcdatamodeld in Sources */,
+				AA68EA3F1DB3F18500E34EF1 /* Person+CoreDataProperties.m in Sources */,
+				AA68EA441DB3F18500E34EF1 /* BirthCertificate.m in Sources */,
+				AA68EA411DB3F18500E34EF1 /* Bank+CoreDataProperties.m in Sources */,
+				AA68E9FD1DB2B53100E34EF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA68EA041DB2B53100E34EF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA68EA051DB2B53100E34EF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA68EA0C1DB2B53100E34EF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA68EA0D1DB2B53100E34EF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA68EA101DB2B53200E34EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA68EA111DB2B53200E34EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA68EA131DB2B53200E34EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CoreData Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.edu.CoreData-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA68EA141DB2B53200E34EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CoreData Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.edu.CoreData-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA68E9F31DB2B53100E34EF1 /* Build configuration list for PBXProject "CoreData Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA68EA101DB2B53200E34EF1 /* Debug */,
+				AA68EA111DB2B53200E34EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA68EA121DB2B53200E34EF1 /* Build configuration list for PBXNativeTarget "CoreData Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA68EA131DB2B53200E34EF1 /* Debug */,
+				AA68EA141DB2B53200E34EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA68EA071DB2B53100E34EF1 /* CoreData_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA68EA081DB2B53100E34EF1 /* CoreData_Project.xcdatamodel */,
+			);
+			currentVersion = AA68EA081DB2B53100E34EF1 /* CoreData_Project.xcdatamodel */;
+			path = CoreData_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA68E9F01DB2B53100E34EF1 /* Project object */;
+}
